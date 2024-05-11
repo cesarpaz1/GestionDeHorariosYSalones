@@ -16,5 +16,4 @@ Route::group([
 ], function (Router $router) {
 
     $router->get('/', 'HomeController@index')->name('home');
-    $router->resource('products', ProductController::class);
 });
